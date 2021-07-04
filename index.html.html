@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="./Survery Style.css">
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                    <label for = "user-name"> Name <span class="starcolor" >*</span> </label><br>  
+                    <input type="text" id=" fname " placeholder="First Name"  > <input type="text" id="ilname" placeholder="Last Name"  ><br><br>
+            </div>
+            
+            <div>  <label for = "email-id"> Email <span class="starcolor" >*</span></label> <br>
+                    <input type="text" id="email-id" name ="email-id" placeholder="Email" > <br><br>
+
+            </div>
+
+            <label for=""> Your experience<span class="starcolor" >*</span></label><br>
+
+            <img id="starimage" src="./img/starimage.jpg " alt="Rating in the star" >
+
+
+            <p> Overall how would you rate the experience with us? </p>
+
+            <p> <b>How satisfied are you with <span class="starcolor" >*</span></b> </p>
+
+            <div class="full" >
+
+                     <div  id="emptytag" >                                                                   
+                                <label for="gender-male" >   Veryunsatisfied</label>                      
+                                <label for="gender-female" > Unsatisfied</label>
+                                <label for="gender-female" > Neutral</label>                               
+                                <label for="gender-female" > Satisfied</label>
+                                <label for="gender-female" > VerySatisfied</label>
+
+                    </div>
+                    <div class="borderbg">
+                        <label for="" id="label1" > Purchase:</label>
+                        <div class="radio1" >
+                            <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                            <input type="radio" name ="Gender" id="gender-female" value="Female">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                        </div>
+                        
+                         
+                    </div>
+                    <div>
+                        <label for="" id="label1" > Service:</label>
+                        <div class="radio2" >
+                            <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                            <input type="radio" name ="Gender" id="gender-female" value="Female">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                        </div>
+                        
+                         
+                    </div>
+                    <div class="borderbg" >
+                        <label for="" id="label1" > Company Overall:</label>
+                        <div class="radio1" >
+                            <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                            <input type="radio" name ="Gender" id="gender-female" value="Female">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                        </div>
+                        
+                         
+                    </div>
+                    <p> <b>How likely are you to <span class="starcolor" >*</span>  </b>  </p>
+
+                    <div  id="emptytag" >                                                                   
+                        <label for="gender-male" >   Veryunsatisfied</label>                      
+                        <label for="gender-female" > Unsatisfied</label>
+                        <label for="gender-female" > Neutral</label>                               
+                        <label for="gender-female" > Satisfied</label>
+                        <label for="gender-female" > VerySatisfied</label>
+
+                    </div><br>
+
+                    <div>
+                        <div class="borderbg">
+                            <label for="" id="label1" > Buy from us again:</label>
+                            <div class="radio1" >
+                                <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                                <input type="radio" name ="Gender" id="gender-female" value="Female">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            </div>
+                            
+                             
+                        </div>
+                        <div>
+                            <label for="" id="label1" > Recommand our products to others:</label>
+
+                            <div class="radio2" >
+                                <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                                <input type="radio" name ="Gender" id="gender-female" value="Female">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            </div>
+                            
+                             
+                        </div>
+                        
+                    <div  class="borderbg">
+                            <label for="" id="label1" > Recommand our comany to others:</label>
+
+                            <div class="radio1"   >
+                                <input type="radio" name ="Gender" id="gender-male"   value="Male">                       
+                                <input type="radio" name ="Gender" id="gender-female" value="Female">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                                <input type="radio" name ="Gender" id="NOt Prefered"  value="0">
+                            </div>
+                    </div>
+
+                    <p> <b>Additional Comment for suggestions <span class="starcolor" >*</span></b> </p>
+
+                <textarea name="" id="" cols="100" rows="10"></textarea> <br>
+
+        
+        <button>Submit</button>
